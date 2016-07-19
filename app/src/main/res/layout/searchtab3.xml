@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/editText"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="This is tab 3"
+        android:background="#8b8bf5"
+        android:textColor="#fdfbfb" />
+</LinearLayout>

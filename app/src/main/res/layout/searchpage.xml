@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fbf7f7"
+    android:gravity="center" >
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:id="@+id/spinnerFromCity"
+        android:layout_marginBottom="40dp"
+        android:background="#6164f9" />
+
+
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:id="@+id/spinnerService"
+        android:layout_marginBottom="40dp"
+        android:background="#6164f9" />
+
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:id="@+id/spinnerToCity"
+        android:layout_marginBottom="60dp"
+        android:background="#6164f9" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:background="#a6a6f2"
+        android:textColor="#faf7f7" />
+
+
+
+</LinearLayout>
